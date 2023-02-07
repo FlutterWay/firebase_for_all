@@ -7,10 +7,14 @@ This package is the way to use firebase features on all platforms without code c
 * [firebase_auth_desktop](https://pub.dev/packages/firebase_auth_desktop)
 * [firebase_core_desktop](https://pub.dev/packages/firebase_core_desktop)
 
-firebase_dart & firedart are great packages but on non-windows patforms it is desirable to use original package. This package allows these packages to be channelized according to the running platform. Which means firedart will be working on windows platform, cloud_firestore on other platforms. New classes and functions have been designed carefully so that you 
-dont have to modify your old codes
+firebase_dart & firedart are both great packages that will suffice all your needs for firebase.   On non-windows patforms it is more desirable to use original package with minimum risk of bugs and problems.   <br /> <br />
+
+This package will deal with channelizing task of these packages for you. It will automatically  switch between packages and allow you to run "Firedart" on Windows and "cloud_firestore" on any other platform.   <br /> <br />
+
+New classes and functions have been designed carefully so that you dont have to modify your old codes and migrate your project very easily.  <br /> <br />
 
 Like everyone else, I'm looking forward to the end of the flutterFire desktop process. I hope this library can help a little bit until then
+
 ## Features
 
 Currently supports the following firebase services:
