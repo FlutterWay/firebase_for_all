@@ -23,3 +23,7 @@
 
 - Back to 0.0.4
 
+## 0.1.0
+
+- Some configurations has made
+
