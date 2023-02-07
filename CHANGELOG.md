@@ -27,3 +27,7 @@
 
 - Some configurations has made
 
+## 0.1.1
+
+- Documentation has changed
+

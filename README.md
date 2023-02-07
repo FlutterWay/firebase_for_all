@@ -34,8 +34,16 @@ You must add the library as a dependency to your project.
 ```yaml
 dependencies:
  firebase_for_all: ^latest
+``` 
+
+
+If you setup your Firebase via FlutterFire CLI then InitializeApp function will throw an error. Do this to avoid this error:
+```yaml
+dependency_overrides:
+  firebase_core_platform_interface: 4.5.1
 ```
 Then run `flutter packages get`
+
 
 ## Getting started
 

@@ -1,6 +1,6 @@
 name: firebase_for_all
 description: This package is the way to use firebase features on all platforms without code changes.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/FlutterWay/firebase_for_all
 
 environment:
