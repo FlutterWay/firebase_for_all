@@ -1,7 +1,7 @@
 name: firebase_for_all
-description: This package is the way to use firebase features on all platforms without code changes. This package will deal with channelizing task of these packages for you. It will automatically  switch between packages and allow you to run "Firedart" on Windows and "cloud_firestore" on any other platform.
+description: This package is the way to use firebase features on all platforms without code changes.
 version: 0.1.0
-homepage: https://github.com/worldwidee/firebase_for_all
+homepage: https://github.com/FlutterWay/firebase_for_all
 
 environment:
   sdk: ">=2.17.3 <3.0.0"
