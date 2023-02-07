@@ -66,8 +66,7 @@ New flutterfire way:
       options: DefaultFirebaseOptions.currentPlatform,
       firestore: true,
       auth: true,
-      storage: true,
-      functions: true);
+      storage: true);
 ```
 
 ## Cloud Storage
