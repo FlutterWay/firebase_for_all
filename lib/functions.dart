@@ -6,39 +6,39 @@ import 'package:http/http.dart';
 import 'firebase_for_all.dart';
 
 bool isMacos() {
-  return Platform.isMacOS;
+  return !kIsWeb && Platform.isMacOS;
 }
 
 bool isWindows() {
-  return Platform.isWindows;
+  return !kIsWeb && Platform.isWindows;
 }
 
 bool isLinux() {
-  return Platform.isLinux;
+  return !kIsWeb && Platform.isLinux;
 }
 
 bool isMobile() {
-  return Platform.isIOS || Platform.isAndroid || Platform.isFuchsia;
+  return !kIsWeb && (Platform.isIOS || Platform.isAndroid || Platform.isFuchsia);
 }
 
 bool isIOS() {
-  return Platform.isIOS;
+  return !kIsWeb && Platform.isIOS;
 }
 
 bool isAndroid() {
-  return Platform.isAndroid;
+  return !kIsWeb && Platform.isAndroid;
 }
 
 bool isFuchsia() {
-  return Platform.isFuchsia;
+  return !kIsWeb && Platform.isFuchsia;
 }
 
 bool isValid() {
-  return isMobile() || isMacos() || kIsWeb;
+  return kIsWeb || isMobile() || isMacos();
 }
 
 bool isDesktop() {
-  return isWindows() || isMacos() || isLinux();
+  return !kIsWeb && (isWindows() || isMacos() || isLinux());
 }
 
 List<String> imgExt = [
